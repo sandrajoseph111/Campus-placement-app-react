@@ -6,6 +6,7 @@ import './App.css'
 import Addreg from './components/Addreg'
 import Search from './components/Search'
 import Delete from './components/Delete'
+import Viewpage from './components/Viewpage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Addreg />
       <Search />
       <Delete />
+      <Viewpage />
     </>
   )
 }
