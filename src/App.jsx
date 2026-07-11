@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Addreg from './components/Addreg'
 import Search from './components/Search'
+import Delete from './components/Delete'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <Addreg />
       <Search />
+      <Delete />
     </>
   )
 }
